@@ -1,4 +1,3 @@
-
 "use client";
 
 import ProjectCard from "../components/projectcard";
@@ -7,42 +6,40 @@ const PROJECTS = [
   {
     img: "/image/blog-1.svg",
     title: "International Reviews Gourmet",
-    desc: "Website where travelers can search for restraunts that specialize in their home country's dishes reviewed by only travelers from their country",
+    desc: "旅行者様がご自身の国の料理を専門とするレストランを、同じ国の旅行者様のレビューのみでお探しいただけるウェブサイトでございます。",
   },
   {
     img: "/image/blog2.svg",
     title: "Personal Portfolio",
-    desc: "Personal Portfolio showcasing my experience and projects",
+    desc: "私の経験とプロジェクトを丁寧にご紹介するポートフォリオでございます。",
   },
   {
     img: "/image/blog3.svg",
     title: "Tokyo Tastes",
-    desc: "Utilizies MapboxGL to show all food places near Hitotsubashi University",
+    desc: "一橋大学周辺の飲食店をMapboxGLでご案内申し上げます。",
   },
   {
     img: "../../public/assets/SetListPhoto.jpg",
     title: "Set List",
-    desc: "Connects college students who want to form bands or play together in general",
+    desc: "バンドを組みたい、または一緒に演奏したい大学生の皆様をお繋ぎするサービスでございます。",
   },
 ];
 
 export function Projects() {
   return (
-    <section className="bg-white py-28 px-8">
-      <div className="container mx-auto mb-20 text-center">
-        <h2 className="mt-5 mb-4 text-3xl lg:text-5xl font-bold text-black leading-tight">
-          My Projects
+    <section id="projects-section" className="w-full min-h-screen" style={{ background: '#ffe5e5', fontFamily: 'ui-sans-serif, system-ui, -apple-system, sans-serif' }}>
+      <div className="relative max-w-4xl mx-auto p-8 pt-16 bg-white/90 backdrop-blur-md shadow-lg border border-white/60 text-center" style={{borderRadius:0}}>
+        <h2 className="mb-4 text-3xl lg:text-5xl font-bold text-gray-900 leading-tight drop-shadow-2xl">
+          プロジェクト一覧
         </h2>
-        <p className="mx-auto w-full px-4 font-normal text-gray-500 lg:w-6/12 text-lg">
-          Whether you have a mobile app idea that needs to come to life or a
-          website that requires a facelift, I&apos;m here to turn your digital
-          goals into reality.
+        <p className="mx-auto w-full px-4 font-normal text-gray-700 lg:w-6/12 text-lg drop-shadow-lg">
+          こちらは私がこれまでに開発させていただいたプロジェクトの一覧でございます。
         </p>
-      </div>
-      <div className="container mx-auto grid grid-cols-1 gap-x-10 gap-y-20 md:grid-cols-2 xl:grid-cols-4">
-        {PROJECTS.map((props, idx) => (
-          <ProjectCard key={idx} {...props} />
-        ))}
+        <div className="mt-12 grid grid-cols-1 gap-x-10 gap-y-20 md:grid-cols-2 xl:grid-cols-4">
+          {PROJECTS.map((props, idx) => (
+            <ProjectCard key={idx} {...props} />
+          ))}
+        </div>
       </div>
     </section>
   );

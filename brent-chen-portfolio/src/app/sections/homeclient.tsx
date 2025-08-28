@@ -1,14 +1,18 @@
 "use client";
 import Footer from "./footer";
 import Hero from "./hero";
-import Projects from "./projects";
-import Navbar from "../components/navbar";
+import Projects from "./projects"
 import ContactForm from "./contact";
+import WorkExperience from "./work";
+import Description from "./description";
+import Skills from "./skills";
 function HomeClient() {
   return (
     <>
-      <Navbar />
       <Hero />
+      <WorkExperience />
+      <Description />
+      <Skills />
       <Projects />
       <ContactForm />
       <Footer />
