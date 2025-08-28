@@ -2,16 +2,10 @@
 
 import React, { useState } from "react";
 import { EnvelopeIcon, PhoneIcon } from "@heroicons/react/24/solid";
-import { EmailTemplate } from "../components/emailTemplate";
+import { EmailTemplate } from "../templates/emailTemplate";
 import emailjs from "emailjs-com";
 import ReactDOMServer from "react-dom/server";
-
-interface Email {
-  firstName: string;
-  lastName: string;
-  email: string;
-  message: string;
-}
+import Email from "../dataTypes/Email";
 
 export function ContactForm() {
   const [form, setForm] = useState<Email>({
