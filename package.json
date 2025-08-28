@@ -1,7 +1,0 @@
-{
-  "dependencies": {
-    "@heroicons/react": "^2.2.0",
-    "@material-tailwind/react": "^2.1.10",
-    "emailjs-com": "^3.2.0"
-  }
-}
