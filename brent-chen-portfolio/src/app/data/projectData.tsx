@@ -1,23 +1,27 @@
 const PROJECTS = [
     {
-      img: "/image/blog-1.svg",
-      title: "International Reviews Gourmet",
-      desc: "旅行者様がご自身の国の料理を専門とするレストランを、同じ国の旅行者様のレビューのみでお探しいただけるウェブサイトでございます。",
+      img: "/PhelanFocus.webp",
+      title: "The Phelan Focus",
+      desc: "Consulting Platform Provided By CEO Phelan",
+      link: 'https://thephelanfocus.com/',
     },
     {
-      img: "/image/blog2.svg",
+      img: "/KamimotoRen.png",
       title: "Personal Portfolio",
       desc: "私の経験とプロジェクトを丁寧にご紹介するポートフォリオでございます。",
+      link: "https://github.com/1217Brent/BrentChenPortfolio",
     },
     {
-      img: "/image/blog3.svg",
+      img: "/InternationalGourmet.jpeg",
       title: "Tokyo Tastes",
       desc: "一橋大学周辺の飲食店をMapboxGLでご案内申し上げます。",
+      link: "https://github.com/1217Brent/Tokyo-Food-Places",
     },
     {
-      img: "../../public/assets/SetListPhoto.jpg",
-      title: "Set List",
-      desc: "バンドを組みたい、または一緒に演奏したい大学生の皆様をお繋ぎするサービスでございます。",
+      img: "/WeCareLogo.png",
+      title: "Lender App",
+      desc: "Insurance Management Platform Provided By We Care Insurance",
+      link: "https://www.wecare-insurance.com/contact/",
     },
   ];
 

@@ -4,6 +4,7 @@ import React from "react";
 export default function HeroProfile() {
   return (
     <section
+      id="top"
       className="w-full min-h-screen"
       style={{
         background: "#ffe5e5",
@@ -63,7 +64,7 @@ export default function HeroProfile() {
             height={256}
             style={{
               objectFit: "contain",
-              transform: "translateY(-78px)", 
+              transform: "translateY(-78px)",
             }}
           />
         </div>
@@ -72,7 +73,9 @@ export default function HeroProfile() {
             className="flex items-center text-base bg-white/90 backdrop-blur-md p-4 border border-white/60 shadow-md"
             style={{ borderRadius: 0 }}
           >
-            <span className="text-yellow-400 mr-3 text-lg drop-shadow-lg">▲</span>
+            <span className="text-yellow-400 mr-3 text-lg drop-shadow-lg">
+              ▲
+            </span>
             <span className="text-gray-700 mr-2 font-medium">学位：</span>
             <span className="text-gray-900 font-medium">
               Masters in Management (UC Davis)
@@ -82,17 +85,21 @@ export default function HeroProfile() {
             className="flex items-center text-base bg-white/90 backdrop-blur-md p-4 border border-white/60 shadow-md"
             style={{ borderRadius: 0 }}
           >
-            <span className="text-yellow-400 mr-3 text-lg drop-shadow-lg">▲</span>
+            <span className="text-yellow-400 mr-3 text-lg drop-shadow-lg">
+              ▲
+            </span>
             <span className="text-gray-700 mr-2 font-medium">経験：</span>
             <span className="text-gray-900 font-medium">
-              1.5年のソフトウェア開発経験
+              1.5年のソフトウェアインターン経験
             </span>
           </div>
           <div
             className="flex items-center text-base bg-white/90 backdrop-blur-md p-4 border border-white/60 shadow-md"
             style={{ borderRadius: 0 }}
           >
-            <span className="text-yellow-400 mr-3 text-lg drop-shadow-lg">▲</span>
+            <span className="text-yellow-400 mr-3 text-lg drop-shadow-lg">
+              ▲
+            </span>
             <span className="text-gray-700 mr-2 font-medium">専門：</span>
             <span className="text-gray-900 font-medium">
               フロントエンド・バックエンド開発
@@ -102,7 +109,9 @@ export default function HeroProfile() {
             className="flex items-center text-base bg-white/90 backdrop-blur-md p-4 border border-white/60 shadow-md"
             style={{ borderRadius: 0 }}
           >
-            <span className="text-yellow-400 mr-3 text-lg drop-shadow-lg">▲</span>
+            <span className="text-yellow-400 mr-3 text-lg drop-shadow-lg">
+              ▲
+            </span>
             <span className="text-gray-700 mr-2 font-medium">志望：</span>
             <span className="text-gray-900 font-medium">
               日本でのソフトウェア開発
@@ -114,7 +123,7 @@ export default function HeroProfile() {
           style={{ borderRadius: 0 }}
         >
           <div className="flex flex-wrap gap-6">
-          <a
+            <a
               href="https://www.projxon.com/"
               className="flex items-center text-red-500 hover:text-red-700 transition-colors text-base font-medium group"
             >

@@ -3,6 +3,7 @@ import React from "react";
 export default function WorkExperience() {
   return (
     <div
+      id="experience-section"
       className="relative max-w-4xl mx-auto bg-white/90 backdrop-blur-md p-8 mb-8 border border-white/60 shadow-md"
       style={{ borderRadius: 0 }}
     >
@@ -23,14 +24,19 @@ export default function WorkExperience() {
                 <h3 className="text-lg font-semibold text-black mb-1 drop-shadow-lg">
                   Full Stack Developer Intern
                 </h3>
-                <p className="text-red-600 font-medium drop-shadow-lg">PROJXON</p>
+                <p className="text-red-600 font-medium drop-shadow-lg">
+                  PROJXON
+                </p>
               </div>
               <span className="text-sm text-gray-700 bg-white/80 backdrop-blur-sm px-3 py-1 rounded-full mt-2 md:mt-0 border border-red-500/30">
                 現在 (2025年6月6日〜)
               </span>
             </div>
             <p className="text-gray-800 leading-relaxed">
-              Next.js、React、TypeScriptを用いて、当社のCEOがECをはじめとする多様な業界へコンサルティングを提供するプラットフォーム「The Phelan Focus」の開発に貢献。フロントエンドの設計・実装だけでなく、Google Analyticsを用いたデータ分析や、OAuth2.0によるセキュリティ認証を統合するなど、バックエンド機能の構築も担当。
+              Next.js、React、TypeScriptを用いて、当社のCEOがECをはじめとする多様な業界へコンサルティングを提供するプラットフォーム「The
+              Phelan
+              Focus」の開発に貢献。フロントエンドの設計・実装だけでなく、Google
+              Analyticsを用いたデータ分析や、OAuth2.0によるセキュリティ認証を統合するなど、バックエンド機能の構築も担当。
             </p>
           </div>
         </div>
@@ -54,7 +60,8 @@ export default function WorkExperience() {
               </span>
             </div>
             <p className="text-gray-800 leading-relaxed">
-              React、JavaScript、Tailwind CSSを使用したInsurance Management Appのフロントエンド機能開発。バックエンドAPIとの統合、UIの最適化、スケーラビリティのための再利用可能なコンポーネントの構築。PostmanでのAPIテストも実施。
+              React、JavaScript、Tailwind CSSを使用したInsurance Management
+              Appのフロントエンド機能開発。バックエンドAPIとの統合、UIの最適化、スケーラビリティのための再利用可能なコンポーネントの構築。PostmanでのAPIテストも実施。
             </p>
           </div>
         </div>
