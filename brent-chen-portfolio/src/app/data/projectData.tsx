@@ -6,7 +6,7 @@ const PROJECTS = [
       link: 'https://thephelanfocus.com/',
     },
     {
-      img: "/KamimotoRen.png",
+      img: "/KamimotoRen.webp",
       title: "Personal Portfolio",
       desc: "私の経験とプロジェクトを丁寧にご紹介するポートフォリオでございます。",
       link: "https://github.com/1217Brent/BrentChenPortfolio",
