@@ -1,11 +1,11 @@
 import React from "react";
+import { Link } from "../dataTypes/Link";
 
-const LINKS = [
+const LINKS: Link[] = [
   { name: "Home", id: "top" },
   { name: "Projects", id: "projects-section" },
   { name: "Experience", id: "experience-section"},
   { name: "Contact", id: "contact-section" },
-  { name: "Resume", link: "/ResumeBrentChen.docx.pdf" },
 ];
 const CURRENT_YEAR = new Date().getFullYear();
 
@@ -39,7 +39,7 @@ function BottomFooter() {
               <li key={item.name}>
                 {item.name === "Resume" ? (
                   <a
-                    href={item.link}
+                    href={item.id}
                     download
                     className="font-normal text-gray-300 hover:text-red-400 transition-all duration-300 text-sm drop-shadow-lg hover:drop-shadow-xl hover:scale-105 relative group"
                   >
