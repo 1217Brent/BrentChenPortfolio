@@ -15,17 +15,17 @@ export default function HeroProfile() {
         className="relative max-w-4xl mx-auto mt-5 p-8 pt-24 bg-white/80 backdrop-blur-lg shadow-lg border border-white/60"
         style={{ borderRadius: 0 }}
       >
-        <div
-          className="inline-block bg-gradient-to-r from-red-500/90 to-orange-500/90 backdrop-blur-sm text-white px-6 py-3 text-sm font-medium mb-8 border border-red-300/50 shadow-lg shadow-red-500/25"
-          style={{ borderRadius: 0 }}
-        >
-          <div className="flex items-center">
-            <div className="w-2 h-2 bg-white rounded-full mr-3 animate-pulse"></div>
-            UC Davis STEM経営学修士課程卒業
-          </div>
-        </div>
         <div className="flex flex-col lg:flex-row justify-between items-start mb-12 gap-8">
           <div className="flex-1 mb-6 lg:mb-0">
+            <div
+              className="inline-block bg-gradient-to-r from-red-500/90 to-orange-500/90 backdrop-blur-sm text-white px-6 py-3 text-sm font-medium mb-8 border border-red-300/50 shadow-lg shadow-red-500/25"
+              style={{ borderRadius: 0 }}
+            >
+              <div className="flex items-center">
+                <div className="w-2 h-2 bg-white rounded-full mr-3 animate-pulse"></div>
+                UC Davis STEM経営学修士課程卒業
+              </div>
+            </div>
             <h1 className="text-7xl font-light text-gray-900 mb-3 tracking-wide leading-tight drop-shadow-2xl">
               神本 蓮
             </h1>
@@ -56,18 +56,19 @@ export default function HeroProfile() {
               </a>
             </div>
           </div>
-
-          <Image
-            src="/KamimotoRen.webp"
-            alt="Ren Kamimoto"
-            width={256}
-            height={256}
-            style={{
-              objectFit: "contain",
-              transform: "translateY(-78px)",
-            }}
-          />
+          <div className="flex-1 flex justify-end items-start">
+            <Image
+              src="/KamimotoRen.webp"
+              alt="Ren Kamimoto"
+              width={256}
+              height={256}
+              style={{
+                objectFit: "contain",
+              }}
+            />
+          </div>
         </div>
+
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
           <div
             className="flex items-center text-base bg-white/90 backdrop-blur-md p-4 border border-white/60 shadow-md"
