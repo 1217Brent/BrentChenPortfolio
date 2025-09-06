@@ -58,7 +58,7 @@ export default function HeroProfile() {
           </div>
 
           <Image
-            src="/KamimotoRen.png"
+            src="/KamimotoRen.webp"
             alt="Ren Kamimoto"
             width={256}
             height={256}
