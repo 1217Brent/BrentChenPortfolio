@@ -117,7 +117,7 @@ export function ContactForm() {
               <div className="flex items-center gap-4 mb-4">
                 <PhoneIcon className="h-6 w-6 text-white" />
                 <span className="text-white font-medium drop-shadow-md">
-                  +1(209) 495 4671
+                  +1 (209) 495 4671
                 </span>
               </div>
               <div className="flex items-center gap-4 mb-4">

@@ -17,6 +17,7 @@ function Skills() {
           "Next.js",
           "TypeScript",
           "JavaScript",
+          "Vercel",
           "HTML & CSS",
           "Python",
           "C",

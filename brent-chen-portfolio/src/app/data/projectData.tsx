@@ -14,7 +14,7 @@ const PROJECTS = [
     {
       img: "/InternationalGourmet.jpeg",
       title: "Tokyo Tastes",
-      desc: "一橋大学周辺の飲食店をMapboxGLでご案内申し上げます。",
+      desc: "一橋大学周辺の飲食店をGoogle Maps APIでご案内申し上げます。",
       link: "https://github.com/1217Brent/Tokyo-Food-Places",
     },
     {
